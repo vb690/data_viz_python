@@ -5,11 +5,7 @@ import numpy as np
 
 import pandas as pd
 
-from sklearn.preprocessing import Normalizer
 from sklearn.model_selection import StratifiedShuffleSplit
-
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # utility functions
 def generate_string(lenght):
@@ -177,23 +173,20 @@ def generate_poly(n_individuals, n_conditions, order):
     return df
                       
 # data preparation functions
-def generate_X_y(df, X_columns, y_column):
+def generate_X_y(df, X_columns, y_column, normalize = False):
     '''
-    Given a dataframe returns numpy array of feature columns and target columns, used for preparing data for modelling
+    Given a dataframe returns numpy array of feature columns and target columns, used for preparing data for modelling, allows to normalize the data
     '''
     X = np.array(df[X_columns]) 
     y = np.array(df[y_column])
-    X = Normalizer().fit_transform(X)
+    if normalize:
+        X = Normalizer().fit_transform(X)
     return X, y
 
 def generating_validation_test(X, y, drop_size=0.5):
     '''
-    Reduces the ammount of data for speeding up the modelling part and given feature and target arrays generate validation and test sets
+    Given feature and target arrays generate validation and test sets
     '''
-    for used, non_used in StratifiedShuffleSplit(n_splits = 1, test_size = drop_size).split(X, y):
-    
-        X, y = X[used], y[used]
-    
     for validation, test in StratifiedShuffleSplit(n_splits = 1, test_size = 0.3).split(X, y):
         
         X_validation, y_validation = X[validation], y[validation]
