@@ -7,7 +7,8 @@ import pandas as pd
 
 from sklearn.model_selection import StratifiedShuffleSplit
 
-# utility functions
+########################### utility functions ##################################
+
 def generate_string(lenght):
     '''
     Generate a random string
@@ -20,7 +21,8 @@ def generate_mapping(df, column):
     '''
     return {label : code for code, label in enumerate(df[column].unique())}
 
-# data generation functions
+########################### data generation functions ###########################
+
 def categorical_noise(column, ammount):
     '''
     Given a dataframe column of categorical values add categorical noise equal to ammount
@@ -172,7 +174,8 @@ def generate_poly(n_individuals, n_conditions, order):
     df['y'] = y
     return df
                       
-# data preparation functions
+########################### data generation functions ###########################
+
 def generate_X_y(df, X_columns, y_column, normalize = False):
     '''
     Given a dataframe returns numpy array of feature columns and target columns, used for preparing data for modelling, allows to normalize the data
