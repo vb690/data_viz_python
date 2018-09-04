@@ -131,22 +131,20 @@ def generate_linear(n_individuals, n_conditions):
     Generate a dataset having for each condition y = w*x
     '''
     conditions = []
-    x = []
+    X = []
     y = []
     for condition in range(n_conditions):
 
-        minimum = np.random.randint(1, 10)
-        maximum = np.random.randint(90, 100)
-        space = np.linspace(minimum, maximum, n_individuals)
-        weight = np.random.uniform(-1, 1)
+        x = np.linspace(-3, 3, n_individuals)
+        weights = np.random.uniform(-6, 6, 1)
 
         conditions.extend([condition for individual in range(n_individuals)])
-        x.extend(space)
-        y.extend([element * weight for element in space])
+        X.extend(x)
+        y.extend(sum([x* weight for weight in weights]))
 
     df = pd.DataFrame()
     df['condition'] = conditions
-    df['x'] = x
+    df['x'] = X
     df['y'] = y
     return df
 
@@ -155,22 +153,20 @@ def generate_poly(n_individuals, n_conditions, order):
     Generate a dataset having for each condition y = w*(x**order)
     '''
     conditions = []
-    x = []
+    X = []
     y = []
     for condition in range(n_conditions):
 
-        minimum = np.random.randint(1, 10)
-        maximum = np.random.randint(90, 100)
-        weight = np.random.uniform(-1, 1)
-        space = np.linspace(minimum, maximum, n_individuals)
-
+        x = np.linspace(-3, 3, n_individuals)
+        weights = np.random.uniform(-6, 6, order+1)
+        
         conditions.extend([condition for individual in range(n_individuals)])
-        x.extend(space)
-        y.extend([weight * (element**order) for element in space])
+        X.extend(x)
+        y.extend(sum([weight*(x**order) for order, weight in enumerate(weights)]))
 
     df = pd.DataFrame()
     df['condition'] = conditions
-    df['x'] = x
+    df['x'] = X
     df['y'] = y
     return df
                       
