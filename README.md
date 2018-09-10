@@ -1,41 +1,35 @@
 # Introductory Data Visualization with Python Seaborn
 
 ## Introduction
-This repository will serve the workshop on data visualization for the IGGI conforence 2018. The aim of the workshop is to provide basic
-guidelines about data visualization as well as introductory notions of the python libraries Pandas, Matplotlib and Seaborn.
+This repository will serve the workshop on data visualization for the IGGI conforence 2018. The aim of the workshop is to provide some basic information and guidance on data visualization, as well as brjef introductory information on the python libraries Pandas, Matplotlib and Seaborn. 
+
+Though it is intentionally designed to be delivered in person at our workshop, we have opted to make this repository public in the hopes that somebody might potentially find this useful regardless.  
 
 ## Availbale Data and Resources
 
-* `dataframe.csv`
+`dataframe.csv` - PoE data extracted from kaggle user [gagazet](https://www.kaggle.com/gagazet/path-of-exile-league-statistic)
 
+`dataframe_ml.csv` - PoE data refactored to be ML friendly
 
-* `dataframe_ml.csv`
+`nba.csv` - NBA player aggregate statistics of the season 2017-2018 from basketball reference
 
+`toolbox.py` - Some tools that may be useful for working with the data in this repository
 
-* `nba.csv`
+## Workshop Structure
 
-
-* `toolbox.py`
-
-## Sections
-
-1. What, Why, Where and How Data Visualization
-2. Introduction to Pandas, Matplotlib and Seaborn
-3. Exploratory Data visualization
+1. The Need for Data Visualization
+2. Introduction to Pandas, Matplotlib, and Seaborn
+3. Exploratory Data Analysis & Visualization 
 4. Data Visualization for Hypothesis Testing
 5. Data Visualization for Model Evaluation
 
 ## Requiremens (versions recommended)
 
-Python (>= 3.6.2 and < 3.7)
+* Python (>= 3.6.2 and < 3.7)
+* Jupyter (1.0.0)
+* Ipython (6.2.0)
 
- 
-Jupyter (1.0.0)
-
-
-Ipython (6.2.0)
-
-### Modules
+### Dependencies
 
 * Numpy (1.14.2+mkl)
 * Pandas (0.20.3)
