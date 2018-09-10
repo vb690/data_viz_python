@@ -18,8 +18,11 @@ guidelines about data visualization as well as introductory notions of the pytho
 ## Requiremens (versions recommended)
 
 Python >= 3.6.2
+
 Python < 3.7
+
 jupyter 1.0.0
+
 ipython 6.2.0
 
 Modules
