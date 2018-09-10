@@ -37,8 +37,8 @@ Ipython (6.2.0)
 
 ### Modules
 
-* numpy (1.14.2+mkl)
-* pandas (0.20.3)
-* matplotlib (2.0.2)
-* seaborn (0.9.0)
-* scikit-learn (0.19.2)
+* Numpy (1.14.2+mkl)
+* Pandas (0.20.3)
+* Matplotlib (2.0.2)
+* Seaborn (0.9.0)
+* Scikit-learn (0.19.2)
