@@ -8,8 +8,11 @@ Though it is intentionally designed to be delivered in person at our workshop, w
 ## Availbale Data and Resources
 
 `dataframe.csv` - PoE data extracted from kaggle user [gagazet](https://www.kaggle.com/gagazet/path-of-exile-league-statistic)
+
 `dataframe_ml.csv` - PoE data refactored to be ML friendly
+
 `nba.csv` - NBA player aggregate statistics of the season 2017-2018 from basketball reference
+
 `toolbox.py` - Some tools that may be useful for working with the data in this repository
 
 ## Workshop Structure
