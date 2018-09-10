@@ -6,16 +6,16 @@ guidelines about data visualization as well as introductory notions of the pytho
 
 ## Availbale Data and Resources
 
-`dataframe.csv`
+*`dataframe.csv`
 
 
-`dataframe_ml.csv`
+*`dataframe_ml.csv`
 
 
-`nba.csv`
+*`nba.csv`
 
 
-`toolbox.py`
+*`toolbox.py`
 
 ## Sections
 
@@ -29,9 +29,12 @@ guidelines about data visualization as well as introductory notions of the pytho
 
 Python >= 3.6.2
 
+
 Python < 3.7
 
+
 jupyter 1.0.0
+
 
 ipython 6.2.0
 
