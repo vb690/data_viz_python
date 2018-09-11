@@ -1,7 +1,8 @@
 # Introductory Data Visualization with Python Seaborn
 
 ## Introduction
-This repository will serve the workshop on data visualization for the IGGI conforence 2018. The aim of the workshop is to provide some basic information and guidance on data visualization, as well as brjef introductory information on the python libraries Pandas, Matplotlib and Seaborn. 
+
+This repository will serve the workshop on data visualization for the IGGI conforence 2018. The aim of the workshop is to provide some basic information and guidance on data visualization, as well as brief introductory knowledg on the python libraries Pandas, Matplotlib and Seaborn. 
 
 Though it is intentionally designed to be delivered in person at our workshop, we have opted to make this repository public in the hopes that somebody might potentially find this useful regardless.  
 
@@ -36,3 +37,12 @@ Though it is intentionally designed to be delivered in person at our workshop, w
 * Matplotlib (2.0.2)
 * Seaborn (0.9.0)
 * Scikit-learn (0.19.2)
+
+## Resources
+
+In case not able to set up a Jupyter notebook or install the various dependencies through `pip`, we highly recommed to install an anaconda environment. More information can be found here:
+
+* Pip: https://pypi.org/project/pip/
+* Jupyter: http://jupyter.org/
+* Anaconda: https://www.anaconda.com/
+* Anaconda Cloud: https://anaconda.org/
