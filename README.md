@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository will serve the workshop on data visualization for the IGGI conforence 2018. The aim of the workshop is to provide some basic information and guidance on data visualization, as well as brief introductory knowledg on the python libraries Pandas, Matplotlib and Seaborn. 
+This repository will serve the workshop on data visualization for the IGGI conforence 2018. The aim of the workshop is to provide some basic information and guidance on data visualization, as well as brief introductory knowledge on the python libraries Pandas, Matplotlib and Seaborn. 
 
 Though it is intentionally designed to be delivered in person at our workshop, we have opted to make this repository public in the hopes that somebody might potentially find this useful regardless.  
 
