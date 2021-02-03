@@ -1,4 +1,4 @@
-# Introductory Data Visualization with Python Seaborn
+# Introductory Data Visualization with Matplotlib and Seaborn
 
 ## Introduction
 
