@@ -1,5 +1,8 @@
 # Introductory Data Visualization with Matplotlib and Seaborn
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vb690/data_viz_python/HEAD)
+
 ## Motivation
 
 This repository will serve the workshop on data visualization for the IGGI conforence 2018. The aim of the workshop is to provide some basic information and guidance on data visualization, as well as brief introductory knowledge on the python libraries Pandas, Matplotlib and Seaborn. 
@@ -23,3 +26,6 @@ Though it is intentionally designed to be delivered in person at our workshop, w
 3. Exploratory Data Analysis & Visualization 
 4. Data Visualization for Hypothesis Testing
 5. Data Visualization for Model Evaluation
+
+## Usage
+Launch a virtual environment using the Binder badge at the top of this README.
